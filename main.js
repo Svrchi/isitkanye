@@ -1,7 +1,13 @@
 const quote = document.createElement('div');
+quote.setAttribute('class', 'fade-in');
+quote.setAttribute('id', 'quoteDiv')
+quote.style.marginTop = '150px';
+quote.style.marginLeft = '20px'
+// quote.style.alignContent = 'center';
 document.body.appendChild(quote);
 
 const button = document.createElement('button');
+button.setAttribute
 button.type = 'submit';
 button.innerText = "refresh";
 document.body.appendChild(button);
@@ -19,9 +25,9 @@ function generateQuote() {
     .then((resp) => resp.json())
     .then((resp) => {
         if (random === 0) {
-            quote.innerHTML = random + resp.quote;
+            quote.innerHTML = resp.quote;
         } else {
-            quote.innerHTML = random + resp.data[0].quoteText;
+            quote.innerHTML = resp.data[0].quoteText;
         } 
     })
     .catch((error) => {

@@ -7,7 +7,7 @@
         "persistent": false
       },
       "browser_action": {
-        "default_icon": "kanyeshead.png",
+        "default_icon": "sample.png",
         "default_popup": "index.html"
        },
      

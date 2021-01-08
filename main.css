@@ -1,4 +1,44 @@
 #body {
+    background-image: url("https://imgur.com/a/9ngjr8m");
+    /* background-color: rgb(177, 126, 80); */
+    font-family: 'Cardo', serif;
     height: 200px;
-    width:400px;
+    width: 400px;
 }
+button {
+    position: fixed;
+   top: 330px;
+}
+
+.fade-in {
+    margin: auto;
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
