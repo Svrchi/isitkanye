@@ -1,14 +1,28 @@
 #body {
-    background-image: url("https://imgur.com/a/9ngjr8m");
+    background-image: url('png/samplebg.png');
     /* background-color: rgb(177, 126, 80); */
     font-family: 'Cardo', serif;
+    color: rgb(255, 255, 255);
     height: 200px;
     width: 400px;
 }
-button {
-    position: fixed;
-   top: 330px;
+
+
+#btn-ye {
+display: flex;
 }
+#btn-nay {
+display: flex;
+}
+
+#score {
+  position: fixed;
+  top: 300px
+}
+
+
+
+
 
 .fade-in {
     margin: auto;
